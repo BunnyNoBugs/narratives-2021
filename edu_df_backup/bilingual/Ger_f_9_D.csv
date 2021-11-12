@@ -219,7 +219,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 17,видишь,видеть,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act,11,acl:relcl,33,1
 18,.,.,PUNCT,_,19,punct,33,1
 19,Вот,вот,PART,_,1,conj,33,1
-20,первая,первый,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,21,amod,33,1
+20,первая,один,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,21,amod,33,1
 21,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,19,nsubj,33,1
 22,.,.,PUNCT,_,26,punct,33,1
 23,Что,что,PRON,Case=Nom,26,nsubj:pass,33,1
@@ -291,7 +291,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 27,//,//,PUNCT,_,25,punct,39,1
 28,],],PUNCT,_,27,punct,39,1
 29,на,на,ADP,_,30,case,39,1
-30,голове-то,голова-то,PART,_,31,obl,39,1
+30,голове-то,голов-то,PART,_,31,obl,39,1
 31,оказалась,оказаться,VERB,Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid,16,parataxis,39,1
 32,?,?,PUNCT,_,1,punct,39,1
 1,ну,ну,PART,_,5,parataxis,40,0
@@ -680,7 +680,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 18,заканчиваем,заканчивать,VERB,Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act,8,root,81,1
 19,.,.,PUNCT,_,20,punct,81,1
 20,Вот,вот,PART,_,18,parataxis,81,1
-21,первая,первый,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,22,amod,81,1
+21,первая,один,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,22,amod,81,1
 22,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,20,nsubj,81,1
 1,@,@,X,Foreign=Yes,2,punct,82,0
 2,эмм,эмма,X,Foreign=Yes,4,nsubj,82,0
@@ -872,7 +872,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 3,хорошо,хороший,ADJ,Degree=Pos|Gender=Neut|Number=Sing|Variant=Short,1,conj,100,1
 4,.,.,PUNCT,_,1,punct,100,1
 5,Картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,6,nsubj,100,1
-6,вторая,второй,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,1,conj,100,1
+6,вторая,два,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,1,conj,100,1
 7,.,.,PUNCT,_,1,punct,100,1
 1,Суп,суп,NOUN,Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing,4,obj,101,1
 2,в,в,ADP,_,3,case,101,1
@@ -972,7 +972,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 8,большой,большой,ADJ,Case=Loc|Degree=Pos|Gender=Fem|Number=Sing,5,obl,108,0
 9,как,как,SCONJ,_,11,mark,108,0
 10,такая,такой,DET,Case=Nom|Gender=Fem|Number=Sing,11,det,108,0
-11,большая,больший,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,8,obl,108,0
+11,большая,большой,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,8,obl,108,0
 1,ты,ты,PRON,Case=Nom|Number=Sing|Person=2,5,nsubj,109,1
 2,все,весь,DET,Case=Acc|Number=Plur,4,det,109,1
 3,эти,этот,DET,Case=Acc|Number=Plur,4,det,109,1
@@ -1051,7 +1051,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 5,пальчике,пальчик,NOUN,Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing,0,root,117,0
 6,и,и,CCONJ,_,8,cc,117,0
 7,на,на,ADP,_,8,case,117,0
-8,второй,второй,ADJ,Case=Loc|Degree=Pos|Gender=Fem|Number=Sing,5,conj,117,0
+8,второй,два,ADJ,Case=Loc|Degree=Pos|Gender=Fem|Number=Sing,5,conj,117,0
 9,тоже,тоже,PART,_,8,advmod,117,0
 10,@,@,X,Foreign=Yes,11,punct,117,0
 11,эм,эма,X,Foreign=Yes,8,nsubj,117,0

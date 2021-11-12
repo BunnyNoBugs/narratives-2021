@@ -171,7 +171,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 3,шапке,шапка,NOUN,Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing,1,nmod,33,0
 4,(,(,PUNCT,_,6,punct,33,0
 5,«,«,PUNCT,_,6,punct,33,0
-6,д,д,NOUN,Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing,3,parataxis,33,0
+6,д,далее,NOUN,Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing,3,parataxis,33,0
 7,»,»,PUNCT,_,6,punct,33,0
 8,),),PUNCT,_,6,punct,33,0
 9,у,у,ADP,_,10,case,33,0
@@ -264,8 +264,8 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 16,какую-то,какой-то,DET,Case=Acc|Gender=Fem|Number=Sing,15,det,51,0
 17,",",",",PUNCT,_,3,punct,51,0
 1,а,а,CCONJ,_,4,cc,52,0
-2,м,м,NOUN,Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing,4,nsubj,52,0
-3,м,м,NOUN,Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing,4,obl,52,0
+2,м,метр,NOUN,Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing,4,nsubj,52,0
+3,м,метр,NOUN,Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing,4,obl,52,0
 4,появилось,появиться,VERB,Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid,0,root,52,0
 5,много,много,ADV,Degree=Pos,4,nsubj,52,0
 6,корзин,корзина,NOUN,Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur,5,obl,52,0

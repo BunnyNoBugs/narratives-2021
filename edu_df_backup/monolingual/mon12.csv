@@ -19,7 +19,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 6,тащила,тащить,VERB,Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,4,0
 7,зайчика,зайчик,NOUN,Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing,6,obj,4,0
 1,угу,угу,INTJ,_,0,root,5,1
-1,н,н,NOUN,Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing,5,cc,6,0
+1,н,наш,NOUN,Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing,5,cc,6,0
 2,На,на,ADP,_,3,case,6,0
 3,Машу,маша,PROPN,Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing,5,obl,6,0
 4,сначала,сначала,ADV,Degree=Pos,5,advmod,6,0

@@ -186,7 +186,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 5,Так,так,ADV,Degree=Pos,1,conj,28,1
 6,.,.,PUNCT,_,7,punct,28,1
 7,Вот,вот,PART,_,1,conj,28,1
-8,первая,первый,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,9,amod,28,1
+8,первая,один,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,9,amod,28,1
 9,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,7,nsubj,28,1
 10,.,.,PUNCT,_,15,punct,28,1
 11,Что,что,PRON,Case=Acc,15,obj,28,1
@@ -225,7 +225,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 9,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,2,nsubj,32,1
 10,.,.,PUNCT,_,2,punct,32,1
 1,Маша,маша,PROPN,Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing,2,nsubj,33,0
-2,стоит,стоить,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,33,0
+2,стоит,стоять,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,33,0
 3,под,под,ADP,_,4,case,33,0
 4,деревом,дерево,NOUN,Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing,2,obl,33,0
 1,и,и,CCONJ,_,2,cc,34,0
@@ -233,7 +233,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 3,она,она,PRON,Case=Nom|Gender=Fem|Number=Sing|Person=3,7,nsubj,34,0
 4,почти,почти,ADV,Degree=Pos,7,obl,34,0
 5,на,на,ADP,_,7,case,34,0
-6,самом,сам,ADJ,Case=Loc|Degree=Pos|Gender=Masc|Number=Sing,7,amod,34,0
+6,самом,самый,ADJ,Case=Loc|Degree=Pos|Gender=Masc|Number=Sing,7,amod,34,0
 7,верху,верх,NOUN,Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing,2,nmod,34,0
 8,",",",",PUNCT,_,2,punct,34,0
 1,и,и,CCONJ,_,4,cc,35,0
@@ -266,7 +266,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 6,Так,так,ADV,Degree=Pos,2,parataxis,40,1
 7,",",",",PUNCT,_,10,punct,40,1
 8,и,и,PART,_,9,advmod,40,1
-9,третья,третий,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,10,amod,40,1
+9,третья,три,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,10,amod,40,1
 10,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,2,nsubj,40,1
 11,.,.,PUNCT,_,2,punct,40,1
 1,Это,это,PRON,Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing,4,nsubj,41,0
@@ -436,7 +436,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 29,.,.,PUNCT,_,31,punct,63,1
 30,Так…,так…,PUNCT,_,31,punct,63,1
 31,Вот,вот,PART,_,15,conj,63,1
-32,первая,первый,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,33,amod,63,1
+32,первая,один,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,33,amod,63,1
 33,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,31,nsubj,63,1
 34,.,.,PUNCT,_,41,punct,63,1
 35,Что,что,PRON,Case=Acc,41,obj,63,1
@@ -447,14 +447,14 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 40,ты,ты,PRON,Case=Nom|Number=Sing|Person=2,41,nsubj,63,1
 41,видишь,видеть,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act,31,conj,63,1
 42,?,?,PUNCT,_,1,punct,63,1
-1,Щас-щас,сейчас-сейчас,X,Foreign=Yes,0,root,64,1
+1,Щас-щас,щас-щас,X,Foreign=Yes,0,root,64,1
 1,Я,я,PRON,Case=Nom|Number=Sing|Person=1,3,nsubj,65,0
 2,не,не,PART,_,3,advmod,65,0
 3,вижу,видеть,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,65,0
 1,А,а,CCONJ,_,5,cc,66,1
 2,",",",",PUNCT,_,1,punct,66,1
 3,ну,ну,PART,_,5,parataxis,66,1
-4,щас,сейчас,X,Foreign=Yes,5,mark,66,1
+4,щас,щас,X,Foreign=Yes,5,mark,66,1
 5,увидишь,увидеть,VERB,Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act,0,root,66,1
 6,.,.,PUNCT,_,5,punct,66,1
 1,Мы,мы,PRON,Case=Nom|Number=Plur|Person=1,4,nsubj,67,1

@@ -256,7 +256,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 6,да,да,PART,_,0,root,39,0
 7,",",",",PUNCT,_,9,punct,39,0
 8,не,не,PART,_,9,advmod,39,0
-9,стоит,стоить,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,6,root,39,0
+9,стоит,стоять,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,6,root,39,0
 10,рассказывать,рассказывать,VERB,Aspect=Imp|VerbForm=Inf|Voice=Act,9,csubj,39,0
 11,.,.,PUNCT,_,9,punct,39,0
 1,Нет,нет,PART,_,0,root,40,1
@@ -308,7 +308,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 3,вылетевших,вылететь,VERB,Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act,4,amod,49,0
 4,ос,оса,NOUN,Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur,1,obj,49,0
 1,и,и,CCONJ,_,2,cc,50,0
-2,стоит,стоить,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,50,0
+2,стоит,стоять,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,50,0
 3,соображает,соображать,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,2,csubj,50,0
 4,",",",",PUNCT,_,9,punct,50,0
 5,что,что,PRON,Case=Acc,9,obj,50,0
@@ -531,7 +531,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 8,пирамиду,пирамида,NOUN,Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing,4,conj,83,0
 9,",",",",PUNCT,_,2,punct,83,0
 1,которая,который,PRON,Case=Nom,2,nsubj,84,0
-2,стоит,стоить,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,84,0
+2,стоит,стоять,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,84,0
 3,у,у,ADP,_,4,case,84,0
 4,него,он,PRON,Case=Gen|Gender=Masc|Number=Sing|Person=3,2,obl,84,0
 5,на,на,ADP,_,6,case,84,0

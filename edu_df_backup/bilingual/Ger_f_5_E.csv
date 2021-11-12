@@ -281,7 +281,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 30,оно,оно,PRON,Case=Nom|Gender=Neut|Number=Sing|Person=3,31,nsubj,42,1
 31,закончится,закончиться,VERB,Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid,38,csubj,42,1
 32,рассказать,рассказать,VERB,Aspect=Perf|VerbForm=Inf|Voice=Act,31,xcomp,42,1
-33,все-все-все-все,все-все-все-все,PRON,Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing,32,obj,42,1
+33,все-все-все-все,все-все-все-всё,PRON,Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing,32,obj,42,1
 34,что,что,PRON,Case=Acc,32,obj,42,1
 35,ты,ты,PRON,Case=Nom|Number=Sing|Person=2,36,nsubj,42,1
 36,запомнила,запомнить,VERB,Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,32,ccomp,42,1
@@ -398,7 +398,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 12,из,из,ADP,_,13,case,55,1
 13,видео,видео,NOUN,Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing,2,conj,55,1
 14,.,.,PUNCT,_,16,punct,55,1
-15,Щас,сейчас,SCONJ,_,16,mark,55,1
+15,Щас,щас,SCONJ,_,16,mark,55,1
 16,нажмем,нажать,VERB,Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act,13,advcl,55,1
 17,на,на,ADP,_,18,case,55,1
 18,картинку,картинка,NOUN,Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing,16,obl,55,1
@@ -426,7 +426,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 3,медведь,медведь,NOUN,Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing,4,nsubj,61,0
 4,сковородку,сковородка,NOUN,Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing,0,root,61,0
 5,туда,туда,ADV,Degree=Pos,4,advmod,61,0
-6,пол,пол,NUM,_,8,nummod,61,0
+6,пол,полый,NUM,_,8,nummod,61,0
 7,[,[,PUNCT,_,8,punct,61,0
 8,%,%,SYM,_,4,parataxis,61,0
 9,нрзб,нрзб,X,Foreign=Yes,8,nmod,61,0
@@ -591,7 +591,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 10,что,что,PRON,Case=Nom,21,nsubj,78,1
 11,же,же,PART,_,10,advmod,78,1
 12,",",",",PUNCT,_,14,punct,78,1
-13,щас,сейчас,X,Foreign=Yes,14,mark,78,1
+13,щас,щас,X,Foreign=Yes,14,mark,78,1
 14,будет,быть,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,10,acl:relcl,78,1
 15,последняя,последний,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,16,amod,78,1
 16,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,14,nsubj,78,1

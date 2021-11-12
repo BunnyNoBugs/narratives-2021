@@ -16,6 +16,7 @@ def _parse_syntax(sents: Iterable[str]):
 
 
 def _preprocess_segment(segment: Dict):
+    segment['segment'].replace('"', '')
     if segment['segment'].startswith(('О:', 'М:', 'М\t', 'Э\t', 'В\t')):
         segment['segment'] = segment['segment'][2:]
         segment['is_prompt'] = 1
@@ -116,11 +117,15 @@ def main():
     #     group_folder_path = os.path.join('EDU markup', group)
     #     for filename in os.listdir(group_folder_path):
     #         file_path = os.path.join(group_folder_path, filename)
-    #         convert_edu_to_tokens_df(file_path, os.path.join('edu_df', group, os.path.splitext(filename)[0] + '.csv'))
+    #         convert_edu_to_tokens_df(file_path,
+    #                                  os.path.join('edu_df', group, os.path.splitext(filename)[0] + '.csv'))
 
     for group in ['adult', 'bilingual', 'monolingual']:
         group_folder_path = os.path.join('edu_df', group)
         unite_dfs(group_folder_path).to_csv(f'{group}.csv', index=False)
+
+    # segment = {'segment': 'О: угу, молодец. Э, Сейчас я тебе покажу картинки из мультика, который ты только что посмотрела. Тебе надо будет ответить на вопросы к этим картинкам. Тебе понятно, что надо делать?'}
+    # print(_preprocess_segment(segment))
 
 
 if __name__ == '__main__':

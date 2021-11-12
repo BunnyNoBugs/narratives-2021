@@ -101,7 +101,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 7,",",",",PUNCT,_,9,punct,12,1
 8,как,как,ADV,Degree=Pos,9,mark,12,1
 9,можно,можно,ADV,Degree=Pos,1,conj,12,1
-10,подробнее,подробный,ADV,Degree=Cmp,9,advmod,12,1
+10,подробнее,дробный,ADV,Degree=Cmp,9,advmod,12,1
 11,.,.,PUNCT,_,1,punct,12,1
 1,Маша,маша,PROPN,Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing,2,nsubj,13,0
 2,упала,упасть,VERB,Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,13,0

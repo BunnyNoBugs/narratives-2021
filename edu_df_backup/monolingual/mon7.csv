@@ -60,7 +60,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 7,",",",",PUNCT,_,9,punct,12,1
 8,как,как,ADV,Degree=Pos,9,mark,12,1
 9,можно,можно,ADV,Degree=Pos,1,conj,12,1
-10,подробнее,подробный,ADV,Degree=Cmp,9,advmod,12,1
+10,подробнее,дробный,ADV,Degree=Cmp,9,advmod,12,1
 11,.,.,PUNCT,_,1,punct,12,1
 1,Маша,маша,PROPN,Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing,2,nsubj,13,0
 2,упала,упасть,VERB,Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,13,0
@@ -139,7 +139,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 4,в,в,ADP,_,6,case,31,0
 5,ши-,ши-,PUNCT,_,6,punct,31,0
 6,шишками,шишка,NOUN,Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur,3,obl,31,0
-7,м,м,NOUN,Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing,3,obl,31,0
+7,м,метр,NOUN,Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing,3,obl,31,0
 8,на,на,ADP,_,9,case,31,0
 9,Машу,маша,PROPN,Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing,3,obl,31,0
 1,Что,что,PRON,Case=Acc,2,obj,32,1
@@ -247,7 +247,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 3,ставит,ставить,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act,0,root,58,1
 4,кастрюлю,кастрюля,NOUN,Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing,3,obj,58,1
 5,?,?,PUNCT,_,3,punct,58,1
-1,м,м,NOUN,Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing,0,root,59,0
+1,м,метр,NOUN,Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing,0,root,59,0
 2,на,на,ADP,_,1,case,59,0
 3,сковор-,сковор-,PUNCT,_,5,punct,59,0
 4,на,на,ADP,_,5,case,59,0

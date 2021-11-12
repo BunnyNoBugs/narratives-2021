@@ -268,7 +268,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 29,картинке,картинка,NOUN,Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing,26,obl,44,1
 30,.,.,PUNCT,_,31,punct,44,1
 31,Вот,вот,PART,_,1,conj,44,1
-32,первая,первый,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,33,amod,44,1
+32,первая,один,ADJ,Case=Nom|Degree=Pos|Gender=Fem|Number=Sing,33,amod,44,1
 33,картинка,картинка,NOUN,Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing,31,nsubj,44,1
 1,Маша,маша,PROPN,Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing,8,nsubj,45,0
 2,и,и,CCONJ,_,4,cc,45,0
@@ -403,7 +403,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 1,и,и,CCONJ,_,6,cc,64,0
 2,там,там,ADV,Degree=Pos,6,advmod,64,0
 3,@,@,X,Foreign=Yes,4,punct,64,0
-4,м,м,X,Foreign=Yes,6,nsubj,64,0
+4,м,метр,X,Foreign=Yes,6,nsubj,64,0
 5,Маша,маша,PROPN,Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing,4,appos,64,0
 6,увидела,увидеть,VERB,Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,64,0
 7,их,они,PRON,Case=Acc|Number=Plur|Person=3,6,obj,64,0

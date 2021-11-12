@@ -70,7 +70,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 8,люблю,любить,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act,2,conj,12,1
 1,и,и,CCONJ,_,4,cc,13,0
 2,она,она,PRON,Case=Nom|Gender=Fem|Number=Sing|Person=3,4,nsubj,13,0
-3,щас,сейчас,ADV,Degree=Pos,4,advmod,13,0
+3,щас,щас,ADV,Degree=Pos,4,advmod,13,0
 4,свалится,свалиться,VERB,Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid,0,root,13,0
 1,(,(,PUNCT,_,2,punct,14,0
 2,проигрывается,проигрываться,VERB,Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass,9,root,14,0
@@ -126,7 +126,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 10,",",",",PUNCT,_,12,punct,15,1
 11,как,как,ADV,Degree=Pos,12,advmod,15,1
 12,можно,можно,ADV,Degree=Pos,4,fixed,15,1
-13,подробнее,подробный,ADV,Degree=Cmp,12,advmod,15,1
+13,подробнее,дробный,ADV,Degree=Cmp,12,advmod,15,1
 14,.,.,PUNCT,_,4,punct,15,1
 1,За,за,ADP,_,2,case,16,0
 2,Машей,маша,PROPN,Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing,3,obl,16,0
@@ -240,7 +240,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 1,Что,что,PRON,Case=Nom,2,nsubj,46,1
 2,произошло,произойти,VERB,Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,46,1
 3,?,?,PUNCT,_,2,punct,46,1
-1,м,м,NOUN,Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing,3,obl,47,0
+1,м,метр,NOUN,Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing,3,obl,47,0
 2,она,она,PRON,Case=Nom|Gender=Fem|Number=Sing|Person=3,3,nsubj,47,0
 3,увидела,увидеть,VERB,Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,47,0
 4,как,как,SCONJ,_,7,mark,47,0
@@ -423,7 +423,7 @@ id,word,lemma,upos,feats,head,deprel,segment_id,is_prompt
 2,принес,принести,VERB,Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act,0,root,77,0
 3,чайни,чайни,NOUN,Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur,2,obj,77,0
 4,(,(,PUNCT,_,5,punct,77,0
-5,н,н,INTJ,_,3,parataxis,77,0
+5,н,наш,INTJ,_,3,parataxis,77,0
 6,?,?,PUNCT,_,5,punct,77,0
 7,),),PUNCT,_,5,punct,77,0
 8,к,к,ADP,_,10,case,77,0
