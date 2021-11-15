@@ -1,0 +1,122 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" >эм там эта девочка от поймала зайчика</segment>
+		<segment id="2" >О: так. еще что-нибудь там было?</segment>
+		<segment id="3" parent="90" relname="sequence">ээ и ее на голове лягушка прыгнула</segment>
+		<segment id="4" parent="90" relname="sequence">и она &amp;поду убежала</segment>
+		<segment id="5" >О: ага, такое тоже было, да</segment>
+		<segment id="6" >&amp;и и эта девочка яблоки все откусила</segment>
+		<segment id="7" >О: угу # еще что-нибудь помнишь? или это все?</segment>
+		<segment id="8" >нет неа не знаю</segment>
+		<segment id="9" >О: Так, ну что, Элиз, что там было?</segment>
+		<segment id="10" >там пчелы были</segment>
+		<segment id="11" >О: так</segment>
+		<segment id="12" parent="91" relname="sequence">и она за этой девочкой гонялись</segment>
+		<segment id="13" parent="91" relname="sequence">и самовар очень быстро катился</segment>
+		<segment id="14" >О: ага, так. Еще что-нибудь там было?</segment>
+		<segment id="15" >да и еще и еще там была что что Маша &amp;хо [//]</segment>
+		<segment id="16" >что эта девочка хотела яблоко взять и [%нрзб]</segment>
+		<segment id="17" >О: взять и что?</segment>
+		<segment id="18" parent="92" relname="sequence">взять</segment>
+		<segment id="19" parent="92" relname="sequence">и потом она упала с дерева</segment>
+		<segment id="20" >О: ой, да. Так. Все или еще что-то помнишь?</segment>
+		<segment id="21" >больше не помню.</segment>
+		<segment id="22" >О: открыла?</segment>
+		<segment id="23" >М: ага</segment>
+		<segment id="24" >О: да, что здесь произошло?</segment>
+		<segment id="25" >там лягушка на голове этой девочки</segment>
+		<segment id="26" >О: да, а что сделала лягушка?</segment>
+		<segment id="27" >она прыгнула вот так вот</segment>
+		<segment id="28" >О: ага. а на чем сидит лягушка?</segment>
+		<segment id="29" >на этой девочке</segment>
+		<segment id="30" >О: да, хорошо. Теперь откроем следующую картинку, она называется 1.2</segment>
+		<segment id="31" >и потом она хотела белочку поймать</segment>
+		<segment id="32" >О: ага. а что сделала белка?</segment>
+		<segment id="33" >она на дерево уползла</segment>
+		<segment id="34" >О: ага. а от кого бежала белка?</segment>
+		<segment id="35" >от этой девочки</segment>
+		<segment id="36" >О: ага, хорошо. Давай откроем следующую картинку, 1.3</segment>
+		<segment id="37" >М: нрзб</segment>
+		<segment id="38" >и потом пчелы пришли</segment>
+		<segment id="39" parent="38" relname="cause">и эта девочка убежала</segment>
+		<segment id="40" >О: ага, а откуда появились пчелы?</segment>
+		<segment id="41" >из этой коробки</segment>
+		<segment id="42" >О: ага, так и было. Так, теперь посмотрим следующее видео. Опять нужно посмотреть как можно внимательнее, как можно больше всего запомнить, а потом когда оно закончится рассказать все-все-все-все что ты запомнила. Хорошо?</segment>
+		<segment id="43" >а как [%нрзб] видео?</segment>
+		<segment id="44" >О: оно называется 2 видео. Там цифра 2, потом видео. Угу, все. Так ну что, что ты помнишь, что было в видео?</segment>
+		<segment id="45" >и там был такой вот [/] такой вот @э какой-то медведь</segment>
+		<segment id="46" >О: да</segment>
+		<segment id="47" >и &amp;он он сделал / он сделал вот так</segment>
+		<segment id="48" >О: ага.</segment>
+		<segment id="49" parent="93" relname="sequence">и и у него на нОсу чайник</segment>
+		<segment id="50" parent="93" relname="sequence">а в руках самовар</segment>
+		<segment id="51" >О: угу. еще что там было, ты помнишь?</segment>
+		<segment id="52" >ээм больше не помню</segment>
+		<segment id="53" >О: хорошо, так</segment>
+		<segment id="54" >М: [%нрзб]</segment>
+		<segment id="55" >О: ну давай посмотрим, давай посмотрим картинки, они тоже будут из видео. Щас нажмем на картинку 2.1</segment>
+		<segment id="56" >М: молодец</segment>
+		<segment id="57" >О: открыла?</segment>
+		<segment id="58" >ээ да</segment>
+		<segment id="59" >О: Так, что здесь произошло на картинке?</segment>
+		<segment id="60" parent="94" relname="sequence">там этот медведь собирал,</segment>
+		<segment id="61" parent="94" relname="sequence">там этот медведь сковородку туда пол[%нрзб]</segment>
+		<segment id="62" >О: хорошо, а куда он положил сковородку?</segment>
+		<segment id="63" >на какую-то ржавую печь</segment>
+		<segment id="64" >О: ага, угу, так и было. Давай откроем картинку 2.2.</segment>
+		<segment id="65" >я ее уже так я ее уже нашла</segment>
+		<segment id="66" >О: угу. Открыла?</segment>
+		<segment id="67" >Да вот</segment>
+		<segment id="68" >Да он взял такую вот белые коробки</segment>
+		<segment id="69" >О: угу</segment>
+		<segment id="70" >[%нрзб] белые коробки</segment>
+		<segment id="71" >О: ага, а что с ними делает медведь, что делает медведь с этими коробками?</segment>
+		<segment id="72" >он он сахар туда [%нрзб]</segment>
+		<segment id="73" >О: да, а это коробки с сахаром, там написано сахар. Мм. так что делает медведь, подожди?</segment>
+		<segment id="74" >он туда [//] он в свой суп сахар сделал</segment>
+		<segment id="75" >О: аа, угу. Так. а в каком положении находится сахар на картинке? вот эти коробки с сахаром, они в каком положении находятся?</segment>
+		<segment id="76" >М: как он их держит?</segment>
+		<segment id="77" >на носе три и на пальчике два</segment>
+		<segment id="78" >О: о, классно. хорошо. Так. И что же, щас будет последняя картинка, последняя картинка 2.3 называется</segment>
+		<segment id="79" >и там он вишни в этот свой суп делал</segment>
+		<segment id="80" >О: ага, да. а куда он высыпает эти вишни?</segment>
+		<segment id="81" >в сковородку</segment>
+		<segment id="82" >О: угу. Так. Еще что-нибудь есть на этой картинке?</segment>
+		<segment id="83" >да</segment>
+		<segment id="84" >О: чего там?</segment>
+		<segment id="85" >ржавая печь</segment>
+		<segment id="86" >О: угу. Так. Еще что-нибудь есть на этой картинке?</segment>
+		<segment id="87" >да</segment>
+		<segment id="88" >О: чего там?</segment>
+		<segment id="89" >ржавая печь</segment>
+		<group id="90" type="multinuc" />
+		<group id="91" type="multinuc" />
+		<group id="92" type="multinuc" />
+		<group id="93" type="multinuc" />
+		<group id="94" type="multinuc" />
+	</body>
+</rst>

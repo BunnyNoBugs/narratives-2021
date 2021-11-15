@@ -1,0 +1,154 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="elaboration">Мультики смотрел эти постоянно,</segment>
+		<segment id="2" >года 3-4-5 уже смотрю их.</segment>
+		<segment id="3" >В общем, все понятно, девочка… непослушная. Которая просто балуется.</segment>
+		<segment id="4" parent="5" relname="elaboration">Балуется,</segment>
+		<segment id="5" parent="6" relname="elaboration">играется,</segment>
+		<segment id="6" parent="7" relname="justify">в общем, отдыхает по полной программе, а почему?</segment>
+		<segment id="7" >Потому что она в лесу одна, одинокая.</segment>
+		<segment id="8" parent="9" relname="condition">Мы всегда, с детьми когда смотрим,</segment>
+		<segment id="9" >задумывался, как она оказалась в лесу, почему ее приютил медведь и почему она не идет домой, там, к бабушке и дедушке как в нашей русской сказке, помните, «Маше и медведь»?</segment>
+		<segment id="10" >В принципе, что еще рассказать?</segment>
+		<segment id="11" >Опрашивающий: - А можете чуть-чуть подробнее рассказать именно о действиях, которые происходили?</segment>
+		<segment id="12" >Ну, действия, что действия?</segment>
+		<segment id="13" parent="114" relname="sequence">Схватила зайца,</segment>
+		<segment id="14" parent="114" relname="sequence">потом увидела яблоки,</segment>
+		<segment id="15" parent="114" relname="sequence">зайца бросила,</segment>
+		<segment id="16" >это – рассеянность, там, перемены, там, настроения.</segment>
+		<segment id="17" parent="115" relname="sequence">Начала грызть яблоки,</segment>
+		<segment id="18" parent="19" relname="purpose">яблок стало ей не хватать одного,</segment>
+		<segment id="19" parent="125" relname="span">чтобы скушать,</segment>
+		<segment id="20" parent="115" relname="sequence">начала надгрызать все яблоки,</segment>
+		<segment id="21" parent="115" relname="sequence">потом, естественно, упала,</segment>
+		<segment id="22" parent="115" relname="sequence">скатилась вниз,</segment>
+		<segment id="23" parent="24" relname="elaboration">сломала забор</segment>
+		<segment id="24" parent="126" relname="span">- переполох,</segment>
+		<segment id="25" parent="26" relname="elaboration">упал улей, потом… Ну в общем, кавардак.</segment>
+		<segment id="26" parent="127" relname="span">Навела кавардак.</segment>
+		<segment id="27" >О: Что произошло?</segment>
+		<segment id="28" >Что произошло?</segment>
+		<segment id="29" parent="30" relname="result">Лягушка на голову села ей,</segment>
+		<segment id="30" >она испугалась.</segment>
+		<segment id="31" >О: Что сделала лягушка?</segment>
+		<segment id="32" >Что сделала лягушка?</segment>
+		<segment id="33" parent="116" relname="sequence">Спрыгнула</segment>
+		<segment id="34" parent="116" relname="sequence">и поскакала дальше.</segment>
+		<segment id="35" >О: На чем сидит лягушка?</segment>
+		<segment id="36" >На платочке, который на голове</segment>
+		<segment id="37" >О: Что произошло?</segment>
+		<segment id="38" >Что произошло?</segment>
+		<segment id="39" parent="117" relname="sequence">Увидела белку,</segment>
+		<segment id="40" parent="117" relname="sequence">стало интересно схватить ее,</segment>
+		<segment id="41" parent="117" relname="sequence">погладить,</segment>
+		<segment id="42" parent="117" relname="sequence">потрогать,</segment>
+		<segment id="43" parent="117" relname="sequence">полезла за ней на дерево,</segment>
+		<segment id="44" parent="117" relname="sequence">белка, естественно, от нее убежала.</segment>
+		<segment id="45" parent="117" relname="sequence">А в конце концов, по фильму она ее схватила</segment>
+		<segment id="46" parent="117" relname="sequence">и начала мучить,</segment>
+		<segment id="47" parent="117" relname="sequence">пока не отвлеклась на яблоки.</segment>
+		<segment id="48" >О: Что сделала белка?</segment>
+		<segment id="49" >Что сделала белка?</segment>
+		<segment id="50" >Кинула шишку, вот.</segment>
+		<segment id="51" >О: От кого бежала белка?</segment>
+		<segment id="52" >От Маши.</segment>
+		<segment id="53" >О: Что произошло?</segment>
+		<segment id="54" parent="121" relname="sequence">Как-то она бежала,</segment>
+		<segment id="55" parent="121" relname="sequence">нечаянно задела забор,</segment>
+		<segment id="56" parent="57" relname="result">забор задел улей, улей за улей,</segment>
+		<segment id="57" parent="120" relname="span">пчелы вылетели,</segment>
+		<segment id="58" parent="59" relname="result">побежали за ней,</segment>
+		<segment id="59" parent="119" relname="span">она испугалась</segment>
+		<segment id="60" parent="121" relname="sequence">и забежала в дом.</segment>
+		<segment id="61" >О: Что сделала девочка?</segment>
+		<segment id="62" >Что сделала девочка?</segment>
+		<segment id="63" >Что сделала девочка?</segment>
+		<segment id="64" parent="122" relname="sequence">Испугалась</segment>
+		<segment id="65" parent="122" relname="sequence">и убежала.</segment>
+		<segment id="66" >О: Откуда появились пчелы?</segment>
+		<segment id="67" >Из улья.</segment>
+		<segment id="68" parent="69" relname="purpose">Медведь в преддверии зимы решил затариться ягодами, фруктами,</segment>
+		<segment id="69" >для того, чтобы сварить компотики, варенье на зимней сезон.</segment>
+		<segment id="70" parent="123" relname="sequence">Уже зашел в лес,</segment>
+		<segment id="71" parent="123" relname="sequence">собрал ягоды разные,</segment>
+		<segment id="72" parent="123" relname="sequence">потом залез на дерево,</segment>
+		<segment id="73" parent="123" relname="sequence">потряс (произносит как «поторос») дерево,</segment>
+		<segment id="74" parent="123" relname="sequence">яблоки упали,</segment>
+		<segment id="75" parent="123" relname="sequence">яблоки собрал,</segment>
+		<segment id="76" parent="123" relname="sequence">вытащил банку (банки),</segment>
+		<segment id="77" parent="78" relname="purpose">потом, значит, заварил самовар,</segment>
+		<segment id="78" parent="124" relname="span">чтобы производить консервацию,</segment>
+		<segment id="79" parent="123" relname="sequence">начал варить,</segment>
+		<segment id="80" parent="123" relname="sequence">потом будет консервировать, видимо.</segment>
+		<segment id="81" >О: Что произошло?</segment>
+		<segment id="82" parent="83" relname="purpose">Ну произошло то, что он подготавливает посуду для того,</segment>
+		<segment id="83" >чтобы делать варенье,</segment>
+		<segment id="84" >процесс проходит.</segment>
+		<segment id="85" parent="112" relname="sequence">Нагревается вода,</segment>
+		<segment id="86" parent="112" relname="sequence">туда кидается видно всякие ягоды,</segment>
+		<segment id="87" parent="112" relname="sequence">начинает их варить,</segment>
+		<segment id="88" parent="112" relname="sequence">получается варенье,</segment>
+		<segment id="89" parent="112" relname="sequence">предварительно разогрев печку.</segment>
+		<segment id="90" >О: Что делает медведь?</segment>
+		<segment id="91" >Держит сковородку.</segment>
+		<segment id="92" >О: Куда медведь ставит кастрюлю?</segment>
+		<segment id="93" >На плиту, ну такое вот, домашнее изготовление, на печку такую, дачную похоже.</segment>
+		<segment id="94" >О: Что произошло?</segment>
+		<segment id="95" parent="96" relname="justify">Медведь несет сахар,</segment>
+		<segment id="96" >так как в любое варенье или компот добавляется сахар.</segment>
+		<segment id="97" >О: Что делает медведь?</segment>
+		<segment id="98" >Что делает?</segment>
+		<segment id="99" parent="100" relname="justify">Жонглирует,</segment>
+		<segment id="100" parent="101" relname="justify">потому что он раньше работал в цирке,</segment>
+		<segment id="101" >это знаю я по другим сериям мультика.</segment>
+		<segment id="102" >О: В каком положении находится сахар?</segment>
+		<segment id="103" >Сахар в хаотичном положении находится: три пачки на носу, а две - на пальчиках, на когтях, так скажем, в двух лапах.</segment>
+		<segment id="104" >О: Что произошло?</segment>
+		<segment id="105" >Сам процесс изготовления варенья.</segment>
+		<segment id="106" parent="113" relname="sequence">Высыпает из корзинки, видимо, вишню в сковородку</segment>
+		<segment id="107" parent="113" relname="sequence">и будет сейчас варить варенье из вишни.</segment>
+		<segment id="108" >О: Что делает медведь?</segment>
+		<segment id="109" >Медведь высыпает из корзинки вишню в сковородку.</segment>
+		<segment id="110" >О: Куда медведь высыпает ягоды?</segment>
+		<segment id="111" >В сковородку высыпает ягоды.</segment>
+		<group id="112" type="multinuc" parent="84" relname="elaboration"/>
+		<group id="113" type="multinuc" parent="105" relname="elaboration"/>
+		<group id="114" type="multinuc" parent="16" relname="elaboration"/>
+		<group id="115" type="multinuc" />
+		<group id="116" type="multinuc" />
+		<group id="117" type="multinuc" />
+		<group id="119" type="span" parent="121" relname="sequence"/>
+		<group id="120" type="span" parent="121" relname="sequence"/>
+		<group id="121" type="multinuc" />
+		<group id="122" type="multinuc" />
+		<group id="123" type="multinuc" />
+		<group id="124" type="span" parent="123" relname="sequence"/>
+		<group id="125" type="span" parent="115" relname="sequence"/>
+		<group id="126" type="span" parent="115" relname="sequence"/>
+		<group id="127" type="span" parent="115" relname="sequence"/>
+	</body>
+</rst>

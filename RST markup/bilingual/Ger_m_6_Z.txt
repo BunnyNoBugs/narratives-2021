@@ -1,0 +1,139 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" >О: Скажи, пожалуйста, ты посмотрел мультфильм, и что ты там увидел? Расскажи как можно подробнее.</segment>
+		<segment id="2" parent="101" relname="sequence">Ну, Маша гонялась за белкой,</segment>
+		<segment id="3" parent="101" relname="sequence">потом белка залезла на дерево.</segment>
+		<segment id="4" parent="101" relname="sequence">Потом Маша хотела[/] поймать зайчика.</segment>
+		<segment id="5" parent="101" relname="sequence">Ловила,</segment>
+		<segment id="6" parent="101" relname="sequence">ловила,</segment>
+		<segment id="7" parent="101" relname="sequence">ну потом поймала.</segment>
+		<segment id="8" parent="101" relname="sequence">Потом яблоко упало вниз,</segment>
+		<segment id="9" parent="101" relname="sequence">и потом Маша залезла[/] на дерево</segment>
+		<segment id="10" parent="101" relname="sequence">и покушала яблоки.</segment>
+		<segment id="11" >О: Так. Хорошо. Чудесно.</segment>
+		<segment id="12" parent="102" relname="contrast">Потом. И потом она хотела скушать большое яблоко,</segment>
+		<segment id="13" parent="102" relname="contrast">но уже глава [%нрзб] закончилась.</segment>
+		<segment id="14" >О: Угу. Хорошо. Замечательно. Так. Тогда мы сейчас смотрим второй видеофрагмент. Я сейчас его отправлю.</segment>
+		<segment id="15" >О: Итак, Зорик, ты посмотрел продолжение мультфильма. Расскажи, что там случилось.</segment>
+		<segment id="16" >Угу!</segment>
+		<segment id="17" parent="103" relname="span">Она взяла это яблоко,</segment>
+		<segment id="18" parent="17" relname="elaboration">которое на дереве висело,</segment>
+		<segment id="19" parent="104" relname="sequence">упал[ъ] потом.</segment>
+		<segment id="20" parent="104" relname="sequence">Потом взвалила [у]улья,</segment>
+		<segment id="21" parent="104" relname="sequence">потом пчёлы вышли,</segment>
+		<segment id="22" parent="104" relname="sequence">и она сказала: «Мама!» —</segment>
+		<segment id="23" parent="104" relname="sequence">и убежала.</segment>
+		<segment id="24" parent="104" relname="sequence">ххх [%нрзб], и она так быстро бежала</segment>
+		<segment id="25" parent="104" relname="sequence">и весь этот бокс поломала</segment>
+		<segment id="26" parent="104" relname="sequence">и потом ууу@fp прямо в дверь [%нрзб].</segment>
+		<segment id="27" >О: Угу. Хорошо. Так. Замечательно.</segment>
+		<segment id="28" >Э. Так. Что произошло? (картинка 1)</segment>
+		<segment id="29" parent="30" relname="preparation">Маша &amp;поехала в дере…</segment>
+		<segment id="30" parent="31" relname="motivation">Увидела лягушку и случайно,</segment>
+		<segment id="31" >чтоб ххх [%нрзб].</segment>
+		<segment id="32" >О: Так, а что сделала лягушка?</segment>
+		<segment id="33" parent="34" relname="preparation">Лягушка м@fp</segment>
+		<segment id="34" >она прыгнула на Машу.</segment>
+		<segment id="35" >О: Угу. На чём сидит лягушка?</segment>
+		<segment id="36" >На Маш[ъъ]ной куртке.</segment>
+		<segment id="37" >О: Так. Хорошо. Так. Зорик, что здесь произошло? (картинка 3)</segment>
+		<segment id="38" parent="39" relname="result">Тут Маша стукнулась об улья,</segment>
+		<segment id="39" >и пчёлки из-за этого вылетели.</segment>
+		<segment id="40" >О: Угу. Так. Хорошо. А что сделала девочка?</segment>
+		<segment id="41" parent="105" relname="sequence">Она увидела потом яблоки</segment>
+		<segment id="42" parent="105" relname="sequence">и обрадовалась,</segment>
+		<segment id="43" parent="105" relname="sequence">но потом увидела,</segment>
+		<segment id="44" parent="105" relname="sequence">что пчёлки хотели её догнать,</segment>
+		<segment id="45" parent="106" relname="joint">решил[ъ]:</segment>
+		<segment id="46" parent="106" relname="joint">«Мама!» —</segment>
+		<segment id="47" parent="105" relname="sequence">и убежала.</segment>
+		<segment id="48" >О: А откуда появились пчёлы?</segment>
+		<segment id="49" >Из улья.</segment>
+		<segment id="50" >О: Из улья. Так. Хорошо. Что произошло? (картинка 2)</segment>
+		<segment id="51" parent="107" relname="joint">Маша встретила [%нрзб] белку.</segment>
+		<segment id="52" parent="107" relname="joint">Белка залезла наверх [%нрзб].</segment>
+		<segment id="53" >О: Так. Что сделала белка?</segment>
+		<segment id="54" >Полезла на дерево.</segment>
+		<segment id="55" >О: Хорошо. От кого бежала белка?</segment>
+		<segment id="56" >От Маши.</segment>
+		<segment id="57" >О: От Маши. Спасибо!</segment>
+		<segment id="58" >О: Так, Зорик, ты посмотрел продолжение мультфильма. Расскажи, что случилось в мультике и как можно подробнее.</segment>
+		<segment id="59" >Ну, Медведь он собирал ягоды.</segment>
+		<segment id="60" >П: Погромче говори.</segment>
+		<segment id="61" parent="109" relname="sequence">Медведь собирал ягоды</segment>
+		<segment id="62" parent="108" relname="span">и потом уу@fp пошёл взять уу@fp баночки,</segment>
+		<segment id="63" parent="62" relname="motivation">чтоб ххх [%нрзб],</segment>
+		<segment id="64" parent="109" relname="sequence">потом пошёл &amp;за сквоворо… за сковородкой,</segment>
+		<segment id="65" parent="109" relname="sequence">потом положил сахар туда, потом малину,</segment>
+		<segment id="66" parent="109" relname="sequence">потом поварил,</segment>
+		<segment id="67" parent="109" relname="sequence">помешал</segment>
+		<segment id="68" parent="109" relname="sequence">и пошёл за за за самоваром и чашкой.</segment>
+		<segment id="69" >О: Угу. Хорошо. Спасибо! Так.</segment>
+		<segment id="70" >О: Так, Зорик, что произошло? (картинка 1)</segment>
+		<segment id="71" >Тут Медведь сыпит ягодки.</segment>
+		<segment id="72" >О: Что делает Медведь?</segment>
+		<segment id="73" >Сыпит ягодки.</segment>
+		<segment id="74" >П: Погромче говори.</segment>
+		<segment id="75" >Сыпит ягодки в кастрюлю.</segment>
+		<segment id="76" >О: Хорошо. Так. И куда Медведь ставит кастрюлю?</segment>
+		<segment id="77" >На печку.</segment>
+		<segment id="78" >О: Угу. Так, хорошо! Пожалуйста, картинка номер два.</segment>
+		<segment id="79" parent="80" relname="preparation">У@fp.</segment>
+		<segment id="80" >Тут Медведь у берёт сахар.</segment>
+		<segment id="81" >О: Угу. ##Так. Что делает Медведь с сахаром?</segment>
+		<segment id="82" parent="83" relname="preparation">У@fp,</segment>
+		<segment id="83" parent="84" relname="elaboration">жонглирует,</segment>
+		<segment id="84" >делает разные формы [%нрзб].</segment>
+		<segment id="85" >О: Так. И в каком положении находится сахар?</segment>
+		<segment id="86" parent="87" relname="preparation">Амм@fp.</segment>
+		<segment id="87" parent="110" relname="span">Два сахара. #</segment>
+		<segment id="88" parent="111" relname="joint">Один сахар на пальце Медведя,</segment>
+		<segment id="89" parent="111" relname="joint">второй сахар тоже на пальце Медведя.</segment>
+		<segment id="90" parent="111" relname="joint">А все три сахара на носе Медведя.</segment>
+		<segment id="91" >О: Угу. Хорошо. Так. И, пожалуйста, картинка номер три.</segment>
+		<segment id="92" >П: ххх [%нрзб]</segment>
+		<segment id="93" >О: Что произошло?</segment>
+		<segment id="94" parent="95" relname="preparation">Медведь</segment>
+		<segment id="95" >он ложит сковородку на печку.</segment>
+		<segment id="96" >О: Так. Что делает Медведь?</segment>
+		<segment id="97" >Он ложит &amp;на на печку сковородку.</segment>
+		<segment id="98" >О: Угу. Так. И куда Медведь высыпает ягоды?</segment>
+		<segment id="99" >В сковородку.</segment>
+		<segment id="100" >О: В сковородку. Всё. Спасибо большое! Зорик, ты молодец!</segment>
+		<group id="101" type="multinuc" />
+		<group id="102" type="multinuc" />
+		<group id="103" type="span" parent="104" relname="sequence"/>
+		<group id="104" type="multinuc" />
+		<group id="105" type="multinuc" />
+		<group id="106" type="multinuc" parent="105" relname="sequence"/>
+		<group id="107" type="multinuc" />
+		<group id="108" type="span" parent="109" relname="sequence"/>
+		<group id="109" type="multinuc" />
+		<group id="110" type="span" parent="111" relname="joint"/>
+		<group id="111" type="multinuc" />
+	</body>
+</rst>

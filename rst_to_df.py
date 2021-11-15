@@ -106,11 +106,13 @@ def unite_dfs(folder_path: str):
 
 def main():
     # RST to tokens
-    # rst_texts_path = 'rst_texts'
-    # for filename in os.listdir(rst_texts_path):
-    #     file_path = os.path.join(rst_texts_path, filename)
-    #     if os.path.isfile(file_path):
-    #         convert_rst_to_tokens_df(file_path, os.path.join('rst_df', os.path.splitext(filename)[0] + '.csv'))
+    # for group in ['adult', 'bilingual', 'monolingual']:
+    #     group_folder_path = os.path.join('RST markup', group)
+    #     for filename in os.listdir(group_folder_path):
+    #         file_path = os.path.join(group_folder_path, filename)
+    #         if os.path.isfile(file_path):
+    #             convert_rst_to_tokens_df(file_path,
+    #                                      os.path.join('rst_df', group, os.path.splitext(filename)[0] + '.csv'))
 
     # EDU to tokens
     # for group in ['adult', 'bilingual', 'monolingual']:
@@ -121,9 +123,10 @@ def main():
     #                                  os.path.join('edu_df', group, os.path.splitext(filename)[0] + '.csv'))
 
     for group in ['adult', 'bilingual', 'monolingual']:
-        group_folder_path = os.path.join('edu_df', group)
-        unite_dfs(group_folder_path).to_csv(f'{group}.csv', index=False)
+        group_folder_path = os.path.join('rst_df', group)
+        unite_dfs(group_folder_path).to_csv(f'{group}_rst.csv', index=False)
 
+    # testing
     # segment = {'segment': 'О: угу, молодец. Э, Сейчас я тебе покажу картинки из мультика, который ты только что посмотрела. Тебе надо будет ответить на вопросы к этим картинкам. Тебе понятно, что надо делать?'}
     # print(_preprocess_segment(segment))
 

@@ -1,0 +1,100 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="66" relname="sequence">Р: Сначала Маша хотела поймать бабочку,</segment>
+		<segment id="2" parent="66" relname="sequence">потом на нее напрыгнула лягушка,</segment>
+		<segment id="3" parent="66" relname="sequence">и она побежала за лягушкой.</segment>
+		<segment id="4" parent="66" relname="sequence">Потом увидела зайца</segment>
+		<segment id="5" parent="66" relname="sequence">и потом за ним побежала.</segment>
+		<segment id="6" parent="66" relname="sequence">И упало яблоко,</segment>
+		<segment id="7" parent="66" relname="sequence">и она полезла на дерево за яблоком.</segment>
+		<segment id="8" >О: 1. Что произошло?</segment>
+		<segment id="9" >Р: на Машу напрыгнула лягушка</segment>
+		<segment id="10" >О: 2. Что сделала лягушка?</segment>
+		<segment id="11" >Р: убежала</segment>
+		<segment id="12" >О: 3. На чем сидит лягушка?</segment>
+		<segment id="13" >Р: на Маше</segment>
+		<segment id="14" >О: 1. Что произошло?</segment>
+		<segment id="15" parent="67" relname="joint">Р: Маша подошла // к сосне</segment>
+		<segment id="16" parent="67" relname="joint">и там увидела белку</segment>
+		<segment id="17" >О: 2. Что сделала белка?</segment>
+		<segment id="18" parent="68" relname="restatement">Р: запрыгнула / за кор- (э?)</segment>
+		<segment id="19" parent="68" relname="restatement">поднялась (э?) в сосну</segment>
+		<segment id="20" >О: 3. От кого бежала белка?</segment>
+		<segment id="21" >Р: от Маши</segment>
+		<segment id="22" >О: 1. Что произошло?</segment>
+		<segment id="23" >Р: Маша свалила / улей</segment>
+		<segment id="24" parent="23" relname="cause">и из него вылетели пчелы</segment>
+		<segment id="25" >О: 1. Что сделала девочка?</segment>
+		<segment id="26" >Р: убежала</segment>
+		<segment id="27" >О: 2. Откуда появились пчелы?</segment>
+		<segment id="28" >Р: из улья</segment>
+		<segment id="29" parent="69" relname="sequence">Р: Маша упала с дерева,</segment>
+		<segment id="30" parent="69" relname="sequence">потом / покатилась к мишкиному дому</segment>
+		<segment id="31" parent="70" relname="span">и там свалила улей.</segment>
+		<segment id="32" >Там на нее напали пчелы,</segment>
+		<segment id="33" >О: 1. Что произошло?</segment>
+		<segment id="34" >Р: Маша свалила улей</segment>
+		<segment id="35" parent="34" relname="cause">и на нее напали пчелы</segment>
+		<segment id="36" >О: 2. Что сделала девочка?</segment>
+		<segment id="37" >Р: убежала</segment>
+		<segment id="38" >О: 3. Откуда появились пчелы?</segment>
+		<segment id="39" >Р: из улья</segment>
+		<segment id="40" >О: расскажи...</segment>
+		<segment id="41" parent="71" relname="sequence">Р: Сначала мишка собирал / клубнику, потом / яблоки, / потом / малину,</segment>
+		<segment id="42" parent="71" relname="sequence">потом взял банки</segment>
+		<segment id="43" parent="71" relname="sequence">и поставил их в рядУ.</segment>
+		<segment id="44" parent="71" relname="sequence">И он взял самовар и чашку</segment>
+		<segment id="45" >О: 1. Что произошло?</segment>
+		<segment id="46" parent="72" relname="sequence">Р: Мишка взял кастрюлю</segment>
+		<segment id="47" parent="72" relname="sequence">и положил / его на / на / на / на пли- /</segment>
+		<segment id="48" >О: что вот это такое?</segment>
+		<segment id="49" >Р: мне мама говорила, но я забыла</segment>
+		<segment id="50" >О: скажем, что это плита</segment>
+		<segment id="51" >Р: угу</segment>
+		<segment id="52" >О: тогда куда медведь ставит кастрюлю?</segment>
+		<segment id="53" >Р: на плиту</segment>
+		<segment id="54" >О: Что произошло?</segment>
+		<segment id="55" >Р: мишка взял сахар</segment>
+		<segment id="56" >О: Что делает медведь?</segment>
+		<segment id="57" >Р: несет сахар</segment>
+		<segment id="58" >О: В каком положении находится сахар?</segment>
+		<segment id="59" >Р: на носу и / на пальцах</segment>
+		<segment id="60" >О: Что произошло?</segment>
+		<segment id="61" >Р: Мишка в кастрюлю / кладет / ягоду</segment>
+		<segment id="62" >О: Что делает медведь?</segment>
+		<segment id="63" >Р: насыпает ягоду в кастрюлю</segment>
+		<segment id="64" >О: Куда медведь высыпает ягоды?</segment>
+		<segment id="65" >Р: в кастрюлю</segment>
+		<group id="66" type="multinuc" />
+		<group id="67" type="multinuc" />
+		<group id="68" type="multinuc" />
+		<group id="69" type="multinuc" parent="31" relname="result"/>
+		<group id="70" type="span" parent="32" relname="elaboration"/>
+		<group id="71" type="multinuc" />
+		<group id="72" type="multinuc" />
+	</body>
+</rst>

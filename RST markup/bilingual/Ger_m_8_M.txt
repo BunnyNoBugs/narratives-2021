@@ -1,0 +1,125 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" >М: быстро закончился, да?</segment>
+		<segment id="2" >О: Да</segment>
+		<segment id="3" >М: Так, руки убирай ото рта и смотри на Настю и рассказывай</segment>
+		<segment id="4" >О: ну что, что было?</segment>
+		<segment id="5" >ну там про Машу был мультик</segment>
+		<segment id="6" >О: угу</segment>
+		<segment id="7" parent="8" relname="background">и там @ээм Маша в лесу</segment>
+		<segment id="8" parent="86" relname="span">и она гонится за [/] за [/] за лягушкой</segment>
+		<segment id="9" parent="85" relname="sequence">потом она гонится за белкой и потом за зайцем</segment>
+		<segment id="10" parent="85" relname="sequence">и &amp;пот и она гонится</segment>
+		<segment id="11" parent="85" relname="sequence">и она наконец-то его словила</segment>
+		<segment id="12" parent="85" relname="sequence">и с ним обнимается</segment>
+		<segment id="13" parent="85" relname="sequence">и потом она увидела яблоню</segment>
+		<segment id="14" parent="85" relname="sequence">и она залезла на яблоню</segment>
+		<segment id="15" parent="85" relname="sequence">и увидела большое яблоко</segment>
+		<segment id="16" >О: угу. Молодец, хорошо рассказал. Давай теперь продолжение посмотрим. Отправила.</segment>
+		<segment id="17" >М: есть, смотрим</segment>
+		<segment id="18" parent="87" relname="sequence">Ну Маша хотела яблоко достать</segment>
+		<segment id="19" parent="87" relname="sequence">и она упала</segment>
+		<segment id="20" parent="87" relname="sequence">и покатилась до &amp;дом домика</segment>
+		<segment id="21" parent="87" relname="sequence">и потом @мм она разбросила скажем так ульи</segment>
+		<segment id="22" parent="87" relname="sequence">и она увидела яблоко</segment>
+		<segment id="23" parent="87" relname="sequence">хотела его съесть</segment>
+		<segment id="24" parent="87" relname="sequence">и потом @э пчелы же зажужжали</segment>
+		<segment id="25" parent="87" relname="sequence">и потом она устроила</segment>
+		<segment id="26" parent="27" relname="preparation">ну как это сказать</segment>
+		<segment id="27" parent="88" relname="span"># ну она все разбрасывала и так далее</segment>
+		<segment id="28" parent="89" relname="span">чтоб [//] потому что она боялась</segment>
+		<segment id="29" >О: Хорошо. Теперь посмотрим на три картинки из этого мультика. Задание то же самое, рассказать, что ты видишь. Вот первая картинка.</segment>
+		<segment id="30" parent="90" relname="sequence">ну Маша увидела лягушку</segment>
+		<segment id="31" parent="90" relname="sequence">и она [/] и она смотрит на лягушку</segment>
+		<segment id="32" >О: А лягушка что сделала?</segment>
+		<segment id="33" >она тоже на @ээ Машу смотрит</segment>
+		<segment id="34" >О: А на чем она сидит?</segment>
+		<segment id="35" >на голове</segment>
+		<segment id="36" >О: А вот как она оказалась-то на голове? Что она сделала?</segment>
+		<segment id="37" >она @эээ напрр[имер]</segment>
+		<segment id="38" >М: говори говори, что ты считаешь правильным, то говори.</segment>
+		<segment id="39" parent="40" relname="preparation">ну @эм она [//] нет</segment>
+		<segment id="40" >@э вскочила на Машу</segment>
+		<segment id="41" >О: Угу</segment>
+		<segment id="42" >ползет [%нрзб?] на Машу</segment>
+		<segment id="43" >О: хорошо. Так, следующая картинка.</segment>
+		<segment id="44" parent="92" relname="sequence">@ээ Маша увидела белку</segment>
+		<segment id="45" parent="91" relname="joint">и белка смотрит на шишки</segment>
+		<segment id="46" parent="91" relname="joint">и белка наа сосне</segment>
+		<segment id="47" >О: ага, белка что еще она делает? Что она сделала?</segment>
+		<segment id="48" >она вскарабкалась на дерево</segment>
+		<segment id="49" >О: ага, и от кого она бежала?</segment>
+		<segment id="50" >от Маши.</segment>
+		<segment id="51" >О: От Маши, да. И еще одна картинка.</segment>
+		<segment id="52" parent="93" relname="sequence">@Эм Маша увидела пчел</segment>
+		<segment id="53" parent="93" relname="sequence">и пчелы @э глядут на Машу</segment>
+		<segment id="54" parent="93" relname="sequence">и рядом с Машей лежит яблоко</segment>
+		<segment id="55" parent="94" relname="span">и пчелы наверное на @ээм на него смотрят</segment>
+		<segment id="56" parent="55" relname="motivation">потому что она улей перевернула</segment>
+		<segment id="57" >О: ага. А откуда появились пчелы?</segment>
+		<segment id="58" >из улья</segment>
+		<segment id="59" >О: Из улья, да. Теперь еще одно видео, уже другая серия мультика.</segment>
+		<segment id="60" >[% реплики нет в записи О: Что ты увидел?]</segment>
+		<segment id="61" >Медведя,</segment>
+		<segment id="62" >который собирал ягоды</segment>
+		<segment id="63" >О: угу</segment>
+		<segment id="64" >сначала клубнику, потом яблоки</segment>
+		<segment id="65" >О: Так</segment>
+		<segment id="66" parent="95" relname="sequence">и потом он пошел @эм</segment>
+		<segment id="67" parent="95" relname="sequence">положил ягоды на стол</segment>
+		<segment id="68" parent="95" relname="sequence">пошел в дом @ээ</segment>
+		<segment id="69" parent="95" relname="sequence">взял @э плиту @мм @эмм @э</segment>
+		<segment id="70" parent="96" relname="span">взял кастрюлю</segment>
+		<segment id="71" parent="70" relname="preparation">или что это было</segment>
+		<segment id="72" parent="95" relname="sequence">потом включил @эээ плиту</segment>
+		<segment id="73" parent="95" relname="sequence">и потом он &amp;сдела сделал из него варенье</segment>
+		<segment id="74" >О: Ага. Отлично. И три картинки про этот мультик и все. Так, сейчас. Вот первая картинка.</segment>
+		<segment id="75" parent="97" relname="joint">@ээ здесь @ээ медведь положил кастрюлю на @ээ это плиту</segment>
+		<segment id="76" parent="97" relname="joint">и хочет сделать варенье</segment>
+		<segment id="77" >О: ага. Следующая картинка</segment>
+		<segment id="78" >@ээ сахар @эмм</segment>
+		<segment id="79" >да медведь но сахар несет</segment>
+		<segment id="80" >О: а как он его несет?</segment>
+		<segment id="81" >@эээ он несет три на носу и две в руках</segment>
+		<segment id="82" >О: ага. И последняя</segment>
+		<segment id="83" >@Эээ медведь эм высыпает вишню в кастрюлю</segment>
+		<segment id="84" >О: угу. Ну все, ты молодец, спасибо</segment>
+		<group id="85" type="multinuc" />
+		<group id="86" type="span" parent="85" relname="sequence"/>
+		<group id="87" type="multinuc" />
+		<group id="88" type="span" parent="28" relname="motivation"/>
+		<group id="89" type="span" parent="87" relname="sequence"/>
+		<group id="90" type="multinuc" />
+		<group id="91" type="multinuc" parent="92" relname="sequence"/>
+		<group id="92" type="multinuc" />
+		<group id="93" type="multinuc" />
+		<group id="94" type="span" parent="93" relname="sequence"/>
+		<group id="95" type="multinuc" />
+		<group id="96" type="span" parent="95" relname="sequence"/>
+		<group id="97" type="multinuc" />
+	</body>
+</rst>

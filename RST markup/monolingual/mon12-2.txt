@@ -1,0 +1,119 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst"/>
+			<rel name="background" type="rst"/>
+			<rel name="cause" type="rst"/>
+			<rel name="circumstance" type="rst"/>
+			<rel name="concession" type="rst"/>
+			<rel name="condition" type="rst"/>
+			<rel name="contrast" type="multinuc"/>
+			<rel name="elaboration" type="rst"/>
+			<rel name="evaluation" type="rst"/>
+			<rel name="evidence" type="rst"/>
+			<rel name="joint" type="multinuc"/>
+			<rel name="justify" type="rst"/>
+			<rel name="motivation" type="rst"/>
+			<rel name="preparation" type="rst"/>
+			<rel name="purpose" type="rst"/>
+			<rel name="restatement" type="multinuc"/>
+			<rel name="restatement" type="rst"/>
+			<rel name="result" type="rst"/>
+			<rel name="sequence" type="multinuc"/>
+			<rel name="solutionhood" type="rst"/>
+		</relations>
+	</header>
+	<body>
+		<segment id="1" >Белка как ? бросала на Машу шишки</segment>
+		<segment id="2" >О: угу</segment>
+		<segment id="3" parent="85" relname="sequence">Потом Маша отходила назад</segment>
+		<segment id="4" parent="85" relname="sequence">и / и потом Маша тащила зайчика</segment>
+		<segment id="5" >О: угу</segment>
+		<segment id="6" parent="86" relname="sequence">н На Машу сначала напрыгнула лягушка сверху,</segment>
+		<segment id="7" parent="86" relname="sequence">потом прыгнула в пруд</segment>
+		<segment id="8" >О: угу</segment>
+		<segment id="9" >Потом Маша ? съе- снАчала есть яблоки</segment>
+		<segment id="10" >О: угу</segment>
+		<segment id="11" parent="87" relname="sequence">Как за Маша когда она свалилася с ветки,</segment>
+		<segment id="12" parent="87" relname="sequence">потом она нАчала катиться в дом Мишки,</segment>
+		<segment id="13" parent="87" relname="sequence">и за ней начали гоняться пчелы,</segment>
+		<segment id="14" parent="87" relname="sequence">а потом она носилась по всему кругу дому мишку,</segment>
+		<segment id="15" parent="87" relname="sequence">и с- она потом забежала в дом</segment>
+		<segment id="16" parent="87" relname="sequence">и пчелки остановились</segment>
+		<segment id="17" >О: Что пчелки?</segment>
+		<segment id="18" >остановились</segment>
+		<segment id="19" >О: Что произошло?</segment>
+		<segment id="20" >на Машиной голове сидела лягушка</segment>
+		<segment id="21" >О: угу</segment>
+		<segment id="22" >О: Что сделала лягушка?</segment>
+		<segment id="23" >прыгнула в болото</segment>
+		<segment id="24" >О: угу</segment>
+		<segment id="25" >О: На чем сидит лягушка?</segment>
+		<segment id="26" >на голове</segment>
+		<segment id="27" >О: да, молодец</segment>
+		<segment id="28" >О: Что произошло?</segment>
+		<segment id="29" parent="88" relname="sequence">Маша встала под ёлкой</segment>
+		<segment id="30" parent="88" relname="sequence">и там наверху была белка</segment>
+		<segment id="31" >О: угу</segment>
+		<segment id="32" >О: Что сделала белка?</segment>
+		<segment id="33" >белка побежала на дерево</segment>
+		<segment id="34" >О: угу</segment>
+		<segment id="35" >О: От кого бежала белка?</segment>
+		<segment id="36" >от Маши</segment>
+		<segment id="37" >О: Да, молодец</segment>
+		<segment id="38" >О: Что произошло?</segment>
+		<segment id="39" parent="89" relname="sequence">когда Маша съела яблоко,</segment>
+		<segment id="40" parent="89" relname="sequence">тогда она покатилась до Мишки,</segment>
+		<segment id="41" parent="89" relname="sequence">и потом она в руках увидела яблоко,</segment>
+		<segment id="42" parent="89" relname="sequence">а потом пчелки прос- ? проснулись и за н- и за Машей</segment>
+		<segment id="43" >О: угу, да, отлично</segment>
+		<segment id="44" >О: Что сделала девочка?</segment>
+		<segment id="45" >она нАчала носиться по кругу Мишки по всему саду</segment>
+		<segment id="46" >О: Откуда появились пчелы?</segment>
+		<segment id="47" >они появились где специальных укрытиях к</segment>
+		<segment id="48" >О: угу, молодец.</segment>
+		<segment id="49" >М- медведь накрывал на стол</segment>
+		<segment id="50" >О: угу</segment>
+		<segment id="51" parent="90" relname="sequence">потом зашёл в дом и взял там сахара,</segment>
+		<segment id="52" parent="90" relname="sequence">и потом с- в дом опять зашел</segment>
+		<segment id="53" parent="90" relname="sequence">и взял банки</segment>
+		<segment id="54" >О: угу</segment>
+		<segment id="55" >потом начал варить варенье</segment>
+		<segment id="56" >О: угу</segment>
+		<segment id="57" >потом он н- нёс чашку и самовар</segment>
+		<segment id="58" >О: угу, молодец</segment>
+		<segment id="59" >О: Что произошло?</segment>
+		<segment id="60" >мишка варил варенье</segment>
+		<segment id="61" >О: угу</segment>
+		<segment id="62" >О: Что делает медведь?</segment>
+		<segment id="63" parent="91" relname="joint">держит сковороду</segment>
+		<segment id="64" parent="91" relname="joint">и варит варенье</segment>
+		<segment id="65" >О: да</segment>
+		<segment id="66" >О: Куда медведь ставит кастрюлю?</segment>
+		<segment id="67" >/ на печку</segment>
+		<segment id="68" >О: да, молодец</segment>
+		<segment id="69" >О: Что произошло?</segment>
+		<segment id="70" >он несёт сахар</segment>
+		<segment id="71" >О: Что делает медведь?</segment>
+		<segment id="72" >он держит сахар</segment>
+		<segment id="73" >О: угу</segment>
+		<segment id="74" >О: В каком положении находится сахар?</segment>
+		<segment id="75" >у него на рука- на пальцах сахар и на носу</segment>
+		<segment id="76" >О: угу, молодец</segment>
+		<segment id="77" >О: Что произошло?</segment>
+		<segment id="78" >он насыпает «яхар»</segment>
+		<segment id="79" >О: угу</segment>
+		<segment id="80" >О: Что делает медведь?</segment>
+		<segment id="81" >высыпает из корзинки ягоды</segment>
+		<segment id="82" >О: угу</segment>
+		<segment id="83" >О: Куда медведь высыпает ягоды?</segment>
+		<segment id="84" >в сковородку</segment>
+		<group id="85" type="multinuc" />
+		<group id="86" type="multinuc" />
+		<group id="87" type="multinuc" />
+		<group id="88" type="multinuc" />
+		<group id="89" type="multinuc" />
+		<group id="90" type="multinuc" />
+		<group id="91" type="multinuc" />
+	</body>
+</rst>
