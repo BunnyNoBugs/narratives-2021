@@ -3,6 +3,8 @@ import pandas as pd
 from deeppavlov import build_model
 from typing import Dict, Iterable
 import os
+import networkx as nx
+from scipy.sparse import csr_matrix
 
 
 def _parse_syntax(sents: Iterable[str]):
@@ -75,6 +77,24 @@ def _edu_df_to_tokens_df(edu_df):
     return tokens_df
 
 
+def _rst_to_graph(soup):
+    results = soup.findAll(lambda tag: 'id' in tag.attrs)
+    ids = [tag.attrs['id'] for tag in results]
+    graph = []
+    for tag in results:
+        node = [0] * len(results)
+        if 'parent' in tag.attrs:
+            node[ids.index(tag.attrs['parent'])] = 1
+        graph.append(node)
+    return graph
+
+
+def _analyze_graph(graph):
+    graph = csr_matrix(graph)
+    graph = nx.DiGraph(graph)
+    return [len(x) for x in nx.weakly_connected_components(graph)]
+
+
 def convert_rst_to_tokens_df(load_path, save_path):
     """Convert rst to a df of tokens with syntax info and save it"""
     with open(load_path) as f:
@@ -122,13 +142,26 @@ def main():
     #         convert_edu_to_tokens_df(file_path,
     #                                  os.path.join('edu_df', group, os.path.splitext(filename)[0] + '.csv'))
 
-    for group in ['adult', 'bilingual', 'monolingual']:
-        group_folder_path = os.path.join('rst_df', group)
-        unite_dfs(group_folder_path).to_csv(f'{group}_rst.csv', index=False)
+    # for group in ['adult', 'bilingual', 'monolingual']:
+    #     group_folder_path = os.path.join('rst_df', group)
+    #     unite_dfs(group_folder_path).to_csv(f'{group}_rst.csv', index=False)
 
     # testing
     # segment = {'segment': 'О: угу, молодец. Э, Сейчас я тебе покажу картинки из мультика, который ты только что посмотрела. Тебе надо будет ответить на вопросы к этим картинкам. Тебе понятно, что надо делать?'}
     # print(_preprocess_segment(segment))
+
+    chain_sizes = []
+    for group in ['adult', 'bilingual', 'monolingual']:
+        group_folder_path = os.path.join('RST markup', group)
+        for filename in os.listdir(group_folder_path):
+            file_path = os.path.join(group_folder_path, filename)
+            if os.path.isfile(file_path):
+                with open(file_path) as f:
+                    soup = BeautifulSoup(f, 'xml')
+                graph = _rst_to_graph(soup)
+                chain_sizes.extend([{'group': group, 'chain_size': i} for i in _analyze_graph(graph)])
+    chain_sizes_df = pd.DataFrame(chain_sizes)
+    chain_sizes_df.to_csv('chain_sizes.csv', index=False)
 
 
 if __name__ == '__main__':
